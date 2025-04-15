@@ -1,0 +1,194 @@
+{
+    "Title": "The Bounty of the Dread Pirate Roberts",
+    "Credits": "Created by Noah Baron (npbaron@ucsc.edu).",
+    "InitialLocation": "Cove",
+    "Locations": {
+        "Cove": {
+            "Body": "You finish crawling through the small hole in the rock. As you crawl your way to freedom, you notice the opening to a massive hidden cove. Stalactites are dripping beads of water, moss is growing, and the silence is all encompassing. As you survey, you finally see it. A massive pirate ship resting in the water. At long last, the ship of the Dread Pirate Roberts. His treasure can finally be yours.",
+            "Choices": [
+                {
+                    "Text": "Climb onto the main deck",
+                    "Target": "Main Deck"
+                }
+            ]
+        },
+        "Main Deck": {
+            "Body": "As you climb onto the main deck, you notice many suspicious occurances. Given Roberts' track record, it's likey he is going to need a puzzle to be solved to find his treasure. Where do you go next?",
+            "Choices": [
+                {
+                    "Text": "Captains Quarters",
+                    "Target": "Captains Quarters"
+                },
+                {
+                    "Text": "Climb the mast",
+                    "Target": "Mast"
+                },
+                {
+                    "Text": "Head below deck",
+                    "Target": "Below Deck"
+                }
+            ]
+        },
+        "Mast": {
+            "Body": "You begin to climb the mast, rung by rung, until you reach the top. After you recover your breath, you notice two things. First, there is some writing on the cave wall. Second, you can raise the main sail. What do you do?",
+            "Choices": [
+                {
+                    "Text": "Raise the sail",
+                    "Target": "Sail"
+                },
+                {
+                    "Text": "Look at the wall",
+                    "Target": "Cave wall"
+                },
+                {
+                    "Text": "Climb down",
+                    "Target": "Main Deck"
+                }
+            ]
+        },
+        "Sail": {
+            "Body": "You begin to raise the main sail until the skull and crossbones are clearly visible. Once it reaches the top, something gets knocked off of the mast and falls into your hand...It's a key!",
+            "Choices": [
+                {
+                    "Text": "Look at the wall",
+                    "Target": "Cave wall"
+                },
+                {
+                    "Text": "Climb down",
+                    "Target": "Main Deck"
+                }
+            ]
+        },
+        "Cave wall": {
+            "Body": "You start to squint as you see something etched into the cave wall. You see a pattern sticking out:     ^  <=  =>  <=     What do you do?",
+            "Choices": [
+                {
+                    "Text": "Raise the sail",
+                    "Target": "Sail"
+                },
+                {
+                    "Text": "Climb down",
+                    "Target": "Main Deck"
+                }
+            ]
+        },
+        "Below Deck": {
+            "Body": "You head down the stairs and end up below the main deck. As you make your way through the cannons and barracks, you notice there are two places to go. Where do you head?",
+            "Choices": [
+                {
+                    "Text": "The galley",
+                    "Target": "Galley"
+                },
+                {
+                    "Text": "The brig",
+                    "Target": "Brig"
+                },
+                {
+                    "Text": "Above deck",
+                    "Target": "Main Deck"
+                }
+            ]
+        },
+        "Galley": {
+            "Body": "You enter the galley, and find a mess of rotten food and dirty dishes. What do you do?",
+            "Choices": [
+                {
+                    "Text": "Check the tools",
+                    "Target": "Tools"
+                },
+                {
+                    "Text": "Dig through food",
+                    "Target": "Food"
+                },{
+                    "Text": "Head back",
+                    "Target": "Below Deck"
+                }
+            ]
+        },
+        "Tools": {
+            "Body": "You start to dig through all of the cooking equipment, but to no avail. It doesn't seem like there's anything here.",
+            "Choices": [
+                {
+                    "Text": "Dig through food",
+                    "Target": "Food"
+                },
+                {
+                    "Text": "Head back",
+                    "Target": "Below Deck"
+                }
+            ]
+        },
+        "Food": {
+            "Body": "You notice mostly rotten food, but some of it seems pretty okay. There's a large lump of some mystery material, it seem's pretty suspicious. What do you do?",
+            "Choices": [
+                {
+                    "Text": "Take a bite",
+                    "Target": "Eat"
+                },
+                {
+                    "Text": "Head back",
+                    "Target": "Below Deck"
+                }
+            ]
+        },
+        "Eat": {
+            "Body": "You frown, hold your tongue, and take a bite. It's revolting, but you feel something hard in there. GULP. The food goes down, and as you keep on biting, you notice a key inside of the food. Queasy, you pocket the key, and keep on searching the ship.",
+            "Choices": [
+                {
+                    "Text": "Head back",
+                    "Target": "Below Deck"
+                }
+            ]
+        },
+        "Brig": {
+            "Body": "You enter the brig, and notice a skeleton sitting on the floor. It looks like a crew member, perhaps even the first mate. Maybe a mutiny took place...",
+            "Choices": [
+                {
+                    "Text": "Approach the skeleton",
+                    "Target": "Skeleton"
+                },
+                {
+                    "Text": "Head back",
+                    "Target": "Below Deck"
+                }
+            ]
+        },
+        "Captains Quarters": {
+            "Body": "You slowly step into the captains quarters. It's a mess. There's rotten food, thrown and torn clothes, and papers everywhere. You begin to search intensly. Overturning furniture, throwing things out, all the works. At wits end, you finally move the main trasure map, and notice a chest underneath.",
+            "Choices": [
+                {
+                    "Text": "Open the treasure chest",
+                    "Target": "Treasure"
+                }
+            ]
+        },
+        "Treasure": {
+            "Body": "Dubloons! Gold! Jewels! Everything you ever wanted and needed, right in front of you. Years of hard work and dedication. Countless sleepless nights. You finally found it, Dread Pirate Roberts hidden treasure. You'll be set for your life, ready to go on any adventure that pelases you."
+        },
+        "Skeleton": {
+            "Body": "As you approach the skeleton, you notice that it looks like the head can turn and pivot. Which way do you turn it?",
+            "Choices": [
+                {
+                    "Text": "Turn Left",
+                    "Target": "Skeleton",
+                    "Action": "Left"
+                },
+                {
+                    "Text": "Point Up",
+                    "Target": "Skeleton",
+                    "Action": "Up"
+                },
+                {
+                    "Text": "Turn Right",
+                    "Target": "Skeleton",
+                    "Action": "Right"
+                },
+                {
+                    "Text": "Head back",
+                    "Target": "Below Deck"
+                }
+                
+            ]
+        }
+    }
+}
